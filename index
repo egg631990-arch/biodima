@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биография</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 32px;
+        }
+        
+        .bio-text {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        
+        .bio-text p {
+            margin-bottom: 20px;
+        }
+        
+        .skills {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        .experience {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        .cooperation {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e8f4f8;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Биография</h1>
+        
+        <div class="bio-text">
+            <p>Меня зовут Дима. Я добрый человек, но с характером - не из простых.</p>
+            
+            <div class="skills">
+                <p>Имею опыт в программировании и владею несколькими языками:</p>
+                <p>C#, C++, Python, Java, CSS, HTML</p>
+            </div>
+            
+            <div class="experience">
+                <p>Мой профессиональный опыт:</p>
+                <p>• Графический дизайн - 1,5 года</p>
+                <p>• Программирование - 1 год</p>
+            </div>
+            
+            <div class="cooperation">
+                <p>Готов к сотрудничеству с адекватными и порядочными людьми.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
